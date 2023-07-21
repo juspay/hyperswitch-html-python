@@ -26,7 +26,7 @@ def create_payment():
     headers = {
       'Content-Type': "application/json",
       'Accept': "application/json",
-      'api-key': "snd_c691ade6995743bd88c166ba509ff5da",
+      'api-key': "YOUR_API_KEY",
     }
     conn.request("POST", "/payments", payload, headers)
     res = conn.getresponse()
