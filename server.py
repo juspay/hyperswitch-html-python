@@ -28,7 +28,7 @@ def create_payment():
     # For accessing more features, you can check out the request body schema for payments-create API here :
     # https://api-reference.hyperswitch.io/docs/hyperswitch-api-reference/60bae82472db8-payments-create
               
-    payload = "{\n \"amount\": 100,\n \"currency\": \"USD\"\n}"
+    payload = "{\n \"amount\": 100,\n \"currency\": \"USD\",\n \"customer_id\": \"hyperswitch_customer\" \n}"
     headers = {
       'Content-Type': "application/json",
       'Accept': "application/json",
